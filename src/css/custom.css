@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  height: 100vh;
+}
+
+/* Containers
+*/
+.login {
+  color: #fff;
+}
+
+/* Components
+*/
+.header {
+  margin-bottom: 26px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Forms
+*/
+.form-container {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.form-control, .form-control:focus {
+  background-color: transparent;
+  color: #fff;
+  height: 48px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255,255,255,.25)
+}
+
+.form-control::placeholder {
+  color: #a7a7a7;
+}
