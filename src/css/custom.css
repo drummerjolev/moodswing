@@ -6,10 +6,49 @@ body {
   height: 100vh;
 }
 
+/* Links
+*/
+a.btn.btn-primary,
+a.btn.btn-primary:hover {
+  color: #fff;
+}
+
+/* Menu
+*/
+.menu {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #fff;
+  border-color: transparent;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+  background-color: #fff;
+  color: #a4508b;
+}
+
 /* Containers
 */
 .login {
   color: #fff;
+  margin-top: 42px;
+}
+
+.dashboard {
+  min-height: 100vh;
+  background-color: #fff;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.dashboard .container {
+  padding-top: 24px;
 }
 
 /* Components
